@@ -7,14 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s dist -p 3000"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
     "lucide-react": "^1.21.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "react-qr-code": "^2.2.0"
+    "react-qr-code": "^2.2.0",
+    "serve": "^14.2.6"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
